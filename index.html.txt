@@ -8,6 +8,10 @@ Green Bean Coffee Co. is an eco-friendly coffee shop committed to sourcing organ
 fair-trade coffee and minimizing our environmental footprint. Join us for a cup
 that’s good for you and the planet.
 """
+my-website/
+  index.html   
+  README.md
+
 products = [
     {"name": "Organic Espresso", "price": "$3.50", "description": "Rich, bold, and sustainably sourced."},
     {"name": "Vegan Latte", "price": "$4.50", "description": "Creamy oat milk with premium espresso."},
@@ -91,3 +95,4 @@ with open("index.html", "w") as file:
     file.write(html_content)
 
 print("Website generated successfully! Open 'index.html' in your browser to view it.")
+
